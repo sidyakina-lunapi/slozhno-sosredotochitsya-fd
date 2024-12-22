@@ -1,0 +1,23 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+:root.theme-dark {
+    --accent-color: #ff0070;
+    --bg-color: #000028;
+    --decor-color: #000028;
+    --font: 'IBM Plex mono';
+    --title-color: #DB00FF;
+    --text-color: #F1B2CE;
+    --header-image: url('images/cover-image-dark.png');
+    --border-style: 1px solid #ff0070;
+    --border-space: 15px;
+    --paragraph-color:#F1B2CE;
+    --title-section-color: #ff0070;
+    --button-color: #ff0070;
+    --background-image: url(../images/cover-image-dark.png);
+    --overlay: block;
+}
+
