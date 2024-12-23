@@ -81,6 +81,7 @@
 
 .title-decor:last-child {
   padding-right: 12%;
+  margin-top: 8vh;
 }
 
 .header__theme-menu {
@@ -170,10 +171,6 @@ a:focus-visible {
   margin-bottom: 2.55vh;
 }
 
-.title-decor:last-child {
-  margin-top: 8vh;
-}
-
 .title-decor-picture {
   margin-top: 4.6vh;
 }
@@ -224,7 +221,6 @@ a:focus-visible {
   .title-decor:last-child {
     margin-top: 20%;
     inline-size: 98%;
-    padding-right: 20%;
   }
 
   .header-grid {
@@ -387,6 +383,7 @@ a:focus-visible {
     padding-top: 2.4%;
     padding-left: 2%;
     padding-bottom: 2%;
+    inline-size: 30%;
   }
 
   .section-title-consentration-container .section-paragraph {
