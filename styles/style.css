@@ -397,7 +397,7 @@ a:focus-visible {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
+  
   .section-advice .section-title {
     padding-top: 10%;
     padding-left: 6%;
