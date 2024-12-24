@@ -65,7 +65,6 @@
   line-height: 0.8em;
   padding-left: 0.1em;
   padding-top: 11vh;
-  padding-bottom: 0.8vh;
 }
 
 .title-decor {
@@ -145,7 +144,7 @@ a:focus-visible {
 }
 
 .section-title:first-child {
-  padding-top: 3.5vh;
+  padding-top: 3vh;
   padding-bottom: 3.5vh;
 }
 
@@ -195,7 +194,7 @@ a:focus-visible {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  height: 100vh; 
+  height: 100vh;
 }
 
 .footer-title {
