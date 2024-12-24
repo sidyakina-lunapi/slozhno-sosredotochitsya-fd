@@ -210,6 +210,12 @@ a:focus-visible {
   line-height: 0.8em;
 }
 
+@media (width <= 400px) {
+  .section-paragraph-last {
+    padding-bottom: 1.2vh;
+  }
+}
+
 @media (width >=760px) {
   .header {
     display: grid;
