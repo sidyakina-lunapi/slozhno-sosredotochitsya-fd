@@ -22,21 +22,17 @@
   top: 1.8vh;
   right: 1.8vh;
   color: var(--accent-color);
-
   height: 24px; 
-
   width: 24px; 
 }
 
 .overlay-element-bottom {
   position: absolute;
   border-left: var(--border-style);
-  
   border-bottom: var(--border-style);
   top: 94.8vh;
   left: 1.8vh; 
   height: 25px;
-
   width: 25px; 
 } 
 
@@ -49,14 +45,12 @@
 }
 
 .overlay-round {
-
   display: var(--overlay);
   position: absolute;
   height: 13px; 
   right: 0.5em;
   top: 0.38em;
   border-radius: 50%;
-
   background: var(--accent-color);
   box-shadow: 0 0 9px var(--accent-color);
   width: 13px; 
