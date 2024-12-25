@@ -22,25 +22,18 @@
   top: 1.8vh;
   right: 1.8vh;
   color: var(--accent-color);
-
   height: 24px; 
-
   width: 24px; 
-
-
 }
 
 .overlay-element-bottom {
   position: absolute;
   border-left: var(--border-style);
   border-bottom: var(--border-style);
-
   top: 94.8vh;
   left: 1.8vh; 
   height: 25px;
-
   width: 25px; 
-
 } 
 
 .overlay-text {
@@ -49,11 +42,10 @@
   right: 1.55em;
   bottom: 0em;
   font-size: 1.1em;
-
 }
 
 .overlay-round {
-  
+
   display: var(--overlay);
   position: absolute;
   height: 13px; 
@@ -61,11 +53,8 @@
   top: 0.38em;
   border-radius: 50%;
   background: var(--accent-color);
-
-
   box-shadow: 0 0 9px var(--accent-color);
   width: 13px; 
-
 }
 
 .header_title {
@@ -202,12 +191,8 @@ a:focus-visible {
 }
 
 .footer {
-
   display: flex;
-
-
   align-items: center; 
-
   height: 100vh;
   justify-content: center; 
 }
