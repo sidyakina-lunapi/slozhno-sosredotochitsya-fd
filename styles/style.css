@@ -22,8 +22,8 @@
   top: 1.8vh;
   right: 1.8vh;
   color: var(--accent-color);
-  height: 24px; 
-  width: 24px; 
+  height: 24px;
+  width: 24px;
 }
 
 .overlay-element-bottom {
@@ -31,9 +31,9 @@
   border-left: var(--border-style);
   border-bottom: var(--border-style);
   top: 94.8vh;
-  left: 1.8vh; 
-  height: 25px;
-  width: 25px; 
+  left: 1.8vh;
+  height: 24px;
+  width: 24px;
 } 
 
 .overlay-text {
@@ -47,13 +47,13 @@
 .overlay-round {
   display: var(--overlay);
   position: absolute;
-  height: 13px; 
+  height: 13px;
   right: 0.5em;
   top: 0.38em;
   border-radius: 50%;
   background: var(--accent-color);
   box-shadow: 0 0 9px var(--accent-color);
-  width: 13px; 
+  width: 13px;
 }
 
 .header_title {
@@ -190,11 +190,10 @@ a:focus-visible {
 }
 
 .footer {
-
   display: flex;
-  align-items: center; 
+  align-items: center;
   height: 100vh;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .footer-title {
