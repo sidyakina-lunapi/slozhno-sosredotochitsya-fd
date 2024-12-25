@@ -18,8 +18,8 @@
 
 .overlay-element {
   position: absolute;
-  width: 24px; 
   height: 24px; 
+  width: 24px; 
   border-right: var(--border-style);
   border-top: var(--border-style);
   top: 1.8vh;
@@ -29,8 +29,8 @@
 
 .overlay-element-bottom {
   position: absolute;
-  width: 25px; 
   height: 25px; 
+  width: 25px; 
   border-left: var(--border-style);
   border-bottom: var(--border-style);
   top: 94.8vh;
@@ -48,9 +48,9 @@
 .overlay-round {
   display: var(--overlay);
   position: absolute;
-  width: 13px; 
   height: 13px; 
   right: 0.5em;
+  width: 13px; 
   top: 0.38em;
   border-radius: 50%;
   background: var(--accent-color);
@@ -192,9 +192,9 @@ a:focus-visible {
 
 .footer {
   display: flex;
-  justify-content: center; 
   align-items: center; 
   height: 100vh;
+  justify-content: center; 
 }
 
 .footer-title {
