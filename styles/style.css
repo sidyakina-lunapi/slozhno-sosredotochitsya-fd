@@ -5,10 +5,11 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 200vw 100vh;
+  background-size: cover;
 }
 .header {
   height: 100vh;
+  min-height: 668px;
 }
 
 .overlay {
@@ -19,8 +20,8 @@
   position: absolute;
   border-right: var(--border-style);
   border-top: var(--border-style);
-  top: 1.8vh;
-  right: 1.8vh;
+  top: 2.8vh;
+  right: 3vh;
   color: var(--accent-color);
   height: 24px;
   width: 24px;
@@ -39,16 +40,17 @@
 .overlay-text {
   display: var(--overlay);
   position: absolute;
-  right: 1.55em;
-  bottom: 0em;
+  right: 1.7em;
+  bottom: 0.2em;
   font-size: 1.1em;
 }
 
-.overlay-round {
+.overlay-text::after {
+  content: '';
   display: var(--overlay);
   position: absolute;
   height: 13px;
-  right: 0.5em;
+  left: 2.45em;
   top: 0.38em;
   border-radius: 50%;
   background: var(--accent-color);
@@ -193,6 +195,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   height: 100vh;
+  min-height: 668px;
   justify-content: center;
 }
 
@@ -203,6 +206,27 @@ a:focus-visible {
   font-weight: bold;
   line-height: 0.8em;
 }
+
+.overlay-element-footer {
+  position: absolute;
+  border-right: var(--border-style);
+  border-top: var(--border-style);
+  bottom: 45vh;
+  left: 92vh;
+  color: var(--accent-color);
+  height: 24px;
+  width: 24px;
+}
+
+.overlay-element-bottom-footer {
+  position: absolute;
+  border-left: var(--border-style);
+  border-bottom: var(--border-style);
+  top: 43.5vh;
+  right: 31vh;
+  height: 24px;
+  width: 24px;
+} 
 
 @media (width >= 760px) {
   .header {
@@ -324,13 +348,7 @@ a:focus-visible {
   }
 }
 
-@media (orientation: landscape) {
-  .page {
-    background-size: 100vw 100vh;
-  }
-}
-
-@media (width >= 1024px) {
+@media (width > 1024px) {
   .header__theme-menu-list {
     display: grid;
     justify-content: center;
@@ -342,29 +360,38 @@ a:focus-visible {
 
   .header__theme-menu {
     padding: 0;
-    padding-bottom: 30vh;
+    padding-bottom: 31vh;
   }
 
   .header_title {
-    padding-top: 6.2vh;
+    padding-top: 5.2vh;
     font-size: 9.8125rem;
   }
 
   .header-grid {
-    margin-left: 1.2%;
+    margin-right: 0.vh;
   }
 
   .title-decor:last-child {
-    margin-top: 14.5vh;
-    word-spacing: 0.1em;
+    margin-left: 2%;
+    padding-right: 2.8%;
+    word-spacing: 0.03em;
     max-inline-size: 100%;
+  }
+
+  br {
+    display: none;
   }
 
   .section-hard_focus {
     padding-top: 1.5%;
-    padding-bottom: 2%;
     padding-left: 1%;
     grid-template-columns: 1fr 2.3fr;
+  }
+
+  .section-title:first-child {
+    margin-top: 4%;
+    padding-bottom: 2.1%;
   }
 
   .section-hard_focus-container {
@@ -372,13 +399,12 @@ a:focus-visible {
   }
 
   .section-hard_focus .section-paragraph {
-    padding-top: 2.2%;
-    margin-right: 0;
+    padding-top: 1.8%;
+    margin-left: 3%;
     max-inline-size: 100%;
   }
   
   .section-title-consentration {
-    padding-top: 2.4%;
     padding-left: 2%;
     padding-bottom: 2%;
     inline-size: 30%;
@@ -411,6 +437,7 @@ a:focus-visible {
 
   .section-advice-container .title-decor {
     max-inline-size: 95%;
+    font-size: 115%;
   }
 
   .section-advice .section-paragraph {
@@ -432,4 +459,5 @@ a:focus-visible {
   .footer-title {
     font-size: 9.8125rem;
   }
+
 }
