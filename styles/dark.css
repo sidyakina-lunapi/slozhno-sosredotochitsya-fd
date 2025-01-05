@@ -8,16 +8,16 @@
   --accent-color: #ff0070;
   --bg-color: #000028;
   --decor-color: #000028;
-  --font: 'IBM Plex mono';
+  --background-color: #000028;
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
+  --href-color: #ff0070;
   --header-title-color: #ff0070;
-  --header-image: url('images/cover-image-dark.png');
   --border-style: 1px solid #ff0070;
-  --border-space: 15px;
   --paragraph-color: #F1B2CE;
   --title-section-color: #ff0070;
   --button-color: #ff0070;
+  --button-linear-color: 255,0,112;
   --background-image: url(../images/cover-image-dark.png);
   --overlay: block;
 }

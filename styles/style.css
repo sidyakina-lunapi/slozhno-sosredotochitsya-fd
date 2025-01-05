@@ -2,6 +2,7 @@
 .page {
   font-family: 'IBM Plex mono', sans-serif;
   background-image: var(--background-image);
+  background-color: var(--background-color);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -20,8 +21,8 @@
   position: absolute;
   border-right: var(--border-style);
   border-top: var(--border-style);
-  top: 2.8vh;
-  right: 3vh;
+  left: 94vw;
+  top: 1.8vh;
   color: var(--accent-color);
   height: 24px;
   width: 24px;
@@ -31,8 +32,8 @@
   position: absolute;
   border-left: var(--border-style);
   border-bottom: var(--border-style);
-  top: 94.8vh;
-  left: 1.8vh;
+  top: 95vh;
+  left: 3vw;
   height: 24px;
   width: 24px;
 } 
@@ -105,7 +106,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--button-color);
+  border: 1px solid rgb(var(--button-linear-color), 0.4);
   padding: 0  9px  0 9px;
 }
 
@@ -207,27 +208,6 @@ a:focus-visible {
   line-height: 0.8em;
 }
 
-.overlay-element-footer {
-  position: absolute;
-  border-right: var(--border-style);
-  border-top: var(--border-style);
-  bottom: 45vh;
-  left: 92vh;
-  color: var(--accent-color);
-  height: 24px;
-  width: 24px;
-}
-
-.overlay-element-bottom-footer {
-  position: absolute;
-  border-left: var(--border-style);
-  border-bottom: var(--border-style);
-  top: 43.5vh;
-  right: 31vh;
-  height: 24px;
-  width: 24px;
-} 
-
 @media (width >= 760px) {
   .header {
     display: grid;
@@ -278,6 +258,10 @@ a:focus-visible {
     width: 25%;
   }
 
+  .section-title:first-child {
+    padding-bottom: 2.5vh;
+  }
+
   .section-title-consentration-container .section-paragraph {
     padding-top: 1%;
     padding-bottom: 2.48%;
@@ -303,7 +287,7 @@ a:focus-visible {
   }
 
   .title-decor-picture {
-    margin-top: 8%;
+    margin-top: 9%;
   }
 
   .section-images-container {
@@ -447,13 +431,13 @@ a:focus-visible {
 
   .section-images-container {
     gap: 3%;
+    padding-top: 0.8%;
     padding-bottom: 13%;
     padding-left: 4vh;
   }
 
   .title-decor-picture {
     margin-top: 6%;
-    margin-bottom: 2%;
   }
 
   .footer-title {

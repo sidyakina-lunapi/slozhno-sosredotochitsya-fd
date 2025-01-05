@@ -10,8 +10,9 @@
   --bg-color: #FFEEF6;
   --title-color: #FFC2E6;
   --decor-color: #353430;
+  --button-linear-color:50, 49, 45;
   --header-title-color: #FF8DCB;
-  --border-style: 1px solid #ff0070;
+  --border-style: 1px solid #353430;
   --border-space: 10px;
   --title-section-color: #353430;
   --paragraph-color: #353430;
@@ -22,18 +23,20 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #ff8dcb;
     --href-color: #ff8dcb;
+    --accent-color: #ff8dcb;
     --bg-color: #FFEEF6;
     --title-color: #FFC2E6;
-    --header-title-color: #FF8DCB;
     --decor-color: #353430;
-    --border-style: 1px solid #ff8dcb;
+    --button-linear-color:50, 49, 45;
+    --header-title-color: #FF8DCB;
+    --border-style: 1px solid #353430;
     --border-space: 10px;
     --title-section-color: #353430;
     --paragraph-color: #353430;
-    --button-color: #353430;
+   --button-color: #353430;
     --background-image: url(../images/cover-image-light.png);
+    --background-color: #fff1f7;
     --overlay: none;
   }
 }
