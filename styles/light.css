@@ -10,9 +10,10 @@
   --bg-color: #FFEEF6;
   --title-color: #FFC2E6;
   --decor-color: #353430;
-  --button-linear-color:50, 49, 45;
+  --button-linear-color: 50, 49, 45;
   --header-title-color: #FF8DCB;
   --border-style: 1px solid #353430;
+  --background-color: #FFF1F7;
   --border-space: 10px;
   --title-section-color: #353430;
   --paragraph-color: #353430;
@@ -28,15 +29,15 @@
     --bg-color: #FFEEF6;
     --title-color: #FFC2E6;
     --decor-color: #353430;
-    --button-linear-color:50, 49, 45;
+    --button-linear-color: 50, 49, 45;
     --header-title-color: #FF8DCB;
     --border-style: 1px solid #353430;
+    --background-color: #FFF1F7;
     --border-space: 10px;
     --title-section-color: #353430;
     --paragraph-color: #353430;
-   --button-color: #353430;
+    --button-color: #353430;
     --background-image: url(../images/cover-image-light.png);
-    --background-color: #fff1f7;
     --overlay: none;
   }
 }
