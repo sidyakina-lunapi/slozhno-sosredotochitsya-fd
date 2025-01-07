@@ -305,6 +305,7 @@ a:focus-visible {
 
   .header_title {
     margin-top: 4vh;
+    font-size: 15.7em;
   }
 
   .header-grid {
@@ -323,10 +324,6 @@ a:focus-visible {
 
   .header-elements {
     padding: 0;
-  }
-
-  .header_title {
-    font-size: 15.7em;
   }
 
   .header-subtitle {
